@@ -1,0 +1,188 @@
+/*
+Temel Seçiciler: element, .class, #id seçicilerini açıklayın ve örnekler verin.
+*/
+p {
+    color: blue;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#header {
+    font-size: 24px;
+}
+
+/*
+Birleşik Seçiciler: element.class, element#id gibi birleşik seçicileri araştırın ve kullanım örneklerini gösterin.
+*/
+p.highlight {
+    color: red;
+}
+
+h1#main-title {
+    text-align: center;
+}
+
+/*
+Pseudo-class: :hover, :focus, :active gibi pseudo-class seçicilerinin ne işe yaradığını ve nasıl kullanıldığını açıklayın.
+*/
+button:hover {
+    background-color: lightblue;
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+a:active {
+    color: red;
+}
+
+/*
+Box Model: Margin, padding, border ve content bölümlerinin ne anlama geldiğini açıklayın.
+*/
+.box {
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+}
+
+/*
+Display Özellikleri: block, inline, inline-block, none değerlerinin işlevlerini açıklayın ve her birini gösteren kısa bir HTML ve CSS kodu oluşturun.
+*/
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
+
+/*
+Positioning: static, relative, absolute, fixed, sticky değerlerinin nasıl çalıştığını ve ne zaman kullanıldığını açıklayın.
+*/
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+/*
+Renkler: color, background-color özelliklerinin nasıl kullanıldığını ve renk değerlerini (hex, rgb, hsl) açıklayın.
+*/
+.hex-color {
+    color: #FF5733;
+    background-color: #FFCCCB;
+}
+
+.rgb-color {
+    color: rgb(255, 87, 51);
+    background-color: rgb(255, 204, 204);
+}
+
+.hsl-color {
+    color: hsl(9, 100%, 60%);
+    background-color: hsl(9, 100%, 90%);
+}
+
+/*
+Arka Plan Özellikleri: background-image, background-size, background-repeat, background-position özelliklerinin işlevlerini araştırın ve bir arka plan resmi ile örnek oluşturun.
+*/
+.background-example {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*
+Font Özellikleri: font-family, font-size, font-weight, font-style, line-height gibi özelliklerin ne işe yaradığını açıklayın ve her biri için birer örnek gösterin.
+*/
+.font-example {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/*
+Metin Stilleri: text-align, text-transform, text-decoration, letter-spacing özelliklerinin nasıl kullanıldığını açıklayın.
+*/
+.text-style {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+/*
+Kenarlık: border, border-radius, border-width, border-style, border-color özelliklerinin işlevlerini açıklayın.
+*/
+.border-example {
+    border: 2px solid black;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+/*
+Kutunun Kenarları: margin, padding ve border arasındaki farkları açıklayın ve bir kutu etrafında nasıl kullanılacağını gösteren kısa bir kod parçası yazın.
+*/
+.box-margin-padding {
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+/*
+Media Queries: @media kuralının nasıl kullanıldığını açıklayın. Farklı ekran boyutlarına göre stil değişiklikleri yapmak için kısa örnekler verin.
+*/
+@media (max-width: 600px) {
+    .responsive-box {
+        font-size: 14px;
+        background-color: lightgrey;
+    }
+}
+
+/*
+Viewport Units: vw, vh, vmin, vmax gibi viewport birimlerinin ne işe yaradığını açıklayın ve kullanımlarına dair örnekler oluşturun.
+*/
+.viewport-example {
+    width: 50vw;
+    height: 50vh;
+    font-size: 3vmin;
+}
